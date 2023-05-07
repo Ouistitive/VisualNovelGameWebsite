@@ -1,0 +1,27 @@
+nav {
+    background-color: rgb(194, 128, 139);
+    color: pink;
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+    top: 0;
+    padding-left: 30px;
+    backdrop-filter: blur(2px);
+    z-index: 999;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+nav h1 {
+    letter-spacing: 2px;
+}

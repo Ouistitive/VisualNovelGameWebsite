@@ -1,3 +1,9 @@
 body {
     background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#main-page {
+    width: inherit;
 }
