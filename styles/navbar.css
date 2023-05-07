@@ -1,5 +1,5 @@
 nav {
-    background-color: rgb(194, 128, 139);
+    background-color: rgb(227, 149, 162);
     color: pink;
     position: fixed;
     display: flex;
@@ -20,6 +20,12 @@ nav ul {
     list-style: none;
     font-weight: bold;
     padding-bottom: 15px;
+}
+
+nav ul li:hover {
+    color: rgb(255, 235, 235);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
 }
 
 nav h1 {
